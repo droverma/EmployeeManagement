@@ -258,7 +258,6 @@ public class Employees {
 
 
 output:
-
 Menu:
 1.Add Employee
 2.Details of Employee
@@ -266,17 +265,17 @@ Menu:
 4.Delete Employee
 5.Give appraisal
 6.Exit
-Enter choice:(1-5)
+Enter choice:(1-6)
 1
 What is the new Employee id ? 101
 What is the new Employee Name ? Drishti
-What is the new Employee Age ? 20
+What is the new Employee Age ? 25
 What is the new Salary ? 120000
 
 Record Saved Successfully
 Employee List:
-EmpId	EmpName	eEmpAge	Salary
-101	Drishti	20	120000.0
+EmpId	EmpName	EmpAge	Salary
+101	Drishti	25	120000.0
 
 Menu:
 1.Add Employee
@@ -285,17 +284,17 @@ Menu:
 4.Delete Employee
 5.Give appraisal
 6.Exit
-Enter choice:(1-5)
+Enter choice:(1-6)
 1
 What is the new Employee id ? 102
 What is the new Employee Name ? Ajay
-What is the new Employee Age ? 25
+What is the new Employee Age ? 29
 What is the new Salary ? 230000
 
 Record Saved Successfully
 Employee List:
-EmpId	EmpName	eEmpAge	Salary
-102	Ajay	25	230000.0
+EmpId	EmpName	EmpAge	Salary
+102	Ajay	29	230000.0
 
 Menu:
 1.Add Employee
@@ -304,17 +303,17 @@ Menu:
 4.Delete Employee
 5.Give appraisal
 6.Exit
-Enter choice:(1-5)
+Enter choice:(1-6)
 3
 No of Employees:2
 Employee List:
 
-EmpId	EmpName	eEmpAge	Salary
-101	Drishti	20	120000.0
+EmpId	EmpName	EmpAge	Salary
+101	Drishti	25	120000.0
 
 
-EmpId	EmpName	eEmpAge	Salary
-102	Ajay	25	230000.0
+EmpId	EmpName	EmpAge	Salary
+102	Ajay	29	230000.0
 
 Menu:
 1.Add Employee
@@ -323,29 +322,13 @@ Menu:
 4.Delete Employee
 5.Give appraisal
 6.Exit
-Enter choice:(1-5)
+Enter choice:(1-6)
 2
-What is the Employee id ? 102
-
-Employee List:
-EmpId	EmpName	eEmpAge	Salary
-102	Ajay	25	230000.0
-
-Menu:
-1.Add Employee
-2.Details of Employee
-3.View Employee
-4.Delete Employee
-5.Give appraisal
-6.Exit
-Enter choice:(1-5)
-5
 What is the Employee id ? 101
-What is the new Salary ? 760000
 
 Employee List:
-EmpId	EmpName	eEmpAge	Salary
-101	Drishti	20	760000.0
+EmpId	EmpName	EmpAge	Salary
+101	Drishti	25	120000.0
 
 Menu:
 1.Add Employee
@@ -354,17 +337,14 @@ Menu:
 4.Delete Employee
 5.Give appraisal
 6.Exit
-Enter choice:(1-5)
-3
-No of Employees:2
+Enter choice:(1-6)
+5
+What is the Employee id ? 102
+What is the new Salary ? 555000
+
 Employee List:
-
-EmpId	EmpName	eEmpAge	Salary
-101	Drishti	20	760000.0
-
-
-EmpId	EmpName	eEmpAge	Salary
-102	Ajay	25	230000.0
+EmpId	EmpName	EmpAge	Salary
+102	Ajay	29	555000.0
 
 Menu:
 1.Add Employee
@@ -373,24 +353,10 @@ Menu:
 4.Delete Employee
 5.Give appraisal
 6.Exit
-Enter choice:(1-5)
+Enter choice:(1-6)
 4
 What is the Employee id ? 102
 Successfully delete record from the list
-Menu:
-1.Add Employee
-2.Details of Employee
-3.View Employee
-4.Delete Employee
-5.Give appraisal
-6.Exit
-Enter choice:(1-5)
-3
-No of Employees:1
-Employee List:
-
-EmpId	EmpName	eEmpAge	Salary
-101	Drishti	20	760000.0
 
 Menu:
 1.Add Employee
@@ -399,11 +365,11 @@ Menu:
 4.Delete Employee
 5.Give appraisal
 6.Exit
-Enter choice:(1-5)
+Enter choice:(1-6)
 1
-What is the new Employee id ? 103
-What is the new Employee Name ? Monika
-What is the new Employee Age ? 12
+What is the new Employee id ? 105
+What is the new Employee Name ? Megha
+What is the new Employee Age ? 1
 java.lang.ArithmeticException: Children not allowed in Company
 Menu:
 1.Add Employee
@@ -412,7 +378,7 @@ Menu:
 4.Delete Employee
 5.Give appraisal
 6.Exit
-Enter choice:(1-5)
+Enter choice:(1-6)
 6
 
 Thank you for using the program. Goodbye!
