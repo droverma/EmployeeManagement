@@ -11,13 +11,6 @@ class Employee {
 	private int empAge;
 	private double salary;
 
-	public void input(int id, String name, int des, double sal) {
-		empId = id;
-		empName = name;
-		empAge = des;
-		salary = sal;
-	}
-
 	public Employee() {
 		empId = 101;
 		empName = "Drishti verma";
