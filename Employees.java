@@ -162,10 +162,13 @@ public class Employees {
 		if (find(id)) {
 			Employee record = findRecord(id);
 
-			System.out.print("What is the new Salary ? ");
-			double sal = scan.nextDouble();
-			record.setSalary(sal);
+			System.out.print("Give appraisal percentage: ");
+			double per = scan.nextInt();
+			double sal = record.getSalary();
+			double appraisal = sal * (per / 100) + sal;
+			System.out.println(appraisal + "appraisal");
 
+			record.setSalary(appraisal);
 			System.out.println("\nEmployee List:" + record.toString());
 		} else {
 			System.out.println("Record Not Found!!!");
